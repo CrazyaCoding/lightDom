@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Mocha</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="mocha.css" />
+  <style>
+    .box {
+      width: 300px;
+      height: 300px;
+      background: yellow;
+      text-align: center;
+      line-height: 300px;
+      border: 10px solid blueviolet;
+      margin: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="mocha"></div>
+
+
+  <div class='box box1 test1 test2 test3 test4' id="div" data-test="123">
+    <p>123</p>
+  </div>
+  <div class='box box2'>
+    <p>456</p>
+  </div>
+
+  <div class="remove">我将被移除</div>
+
+  <div class="parent">
+    <div class="child">我是子元素</div>
+  </div>
+  <div id="click1">click1</div>
+  <div id="click2">click2</div>
+
+  <script src="mocha.js"></script>
+  <script>mocha.setup('bdd');</script>
+  <script src="https://cdn.staticfile.org/chai/4.0.0-canary.1/chai.js"></script>
+  <script src="http://j1.58cdn.com.cn/job/pc/common/0.1/jquery/jquery-1.10.2.min.js"></script>
+  <script src="./../dist/lightDom.bundle.js"></script>
+  <script src="tests.js"></script>
+  <script>
+    mocha.run();
+  </script>
+</body>
+
+</html>

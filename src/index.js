@@ -1,0 +1,31 @@
+define([
+	'./core',
+	'./init',
+	'./splitSelector',
+	'./manipulation',
+	'./getOneElem',
+	'./getEleById',
+	'./getEleByClass',
+	'./getEleByTag',
+	'./length',
+	'./bind',
+	'./unbind',
+	'./style',
+	'./addClass',
+	'./append',
+	'./attr',
+	'./children',
+	'./click',
+	'./core',
+	'./css',
+	'./hide',
+	'./parent',
+	'./remove',
+	'./removeClass',
+	'./show',
+	'./html',
+	'./test',
+	'./global'
+], function(lightDom) {
+	return lightDom;
+});

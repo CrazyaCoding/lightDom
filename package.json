@@ -1,0 +1,42 @@
+{
+	"name": "lightdom",
+	"version": "1.0.0",
+	"description": "轻便版jquery",
+	"main": "dist/lightDOm.bundle.js",
+	"scripts": {
+		"test": "mocha",
+		"build": "webpack"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CrazyaCoding/lightDom.git"
+	},
+	"keywords": [
+		"jquery",
+		"dom",
+		"option"
+	],
+	"author": "shangpanpan",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/CrazyaCoding/lightDom/issues"
+	},
+	"homepage": "https://github.com/CrazyaCoding/lightDom#readme",
+	"devDependencies": {
+		"eslint": "^5.1.0",
+		"eslint-config-58fe": "^1.0.1",
+		"eslint-loader": "^2.0.0",
+		"eslint-plugin-import": "^2.13.0",
+		"karma-coverage": "^1.1.2",
+		"karma-requirejs": "^1.1.0",
+		"karma-spec-reporter": "0.0.32",
+		"mocha": "^5.2.0",
+		"prettier": "^1.13.7",
+		"requirejs": "^2.3.5",
+		"webpack": "^4.16.0",
+		"webpack-cli": "^3.0.8"
+	},
+	"dependencies": {
+		"karma-jasmine": "^1.1.2"
+	}
+}
